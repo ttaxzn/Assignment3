@@ -8,8 +8,7 @@ public:
 };
 
 Node* SortedMerge(Node* a, Node* b);
-void FrontBackSplit(Node* source,
-                                        Node** frontRef, Node** backRef);
+void FrontBackSplit(Node* source, Node** frontRef, Node** backRef);
 
 void MergeSort(Node** headRef)
 {
