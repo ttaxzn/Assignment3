@@ -32,8 +32,6 @@ void MergeSort(Node** headRef)
 Node* SortedMerge(Node* a, Node* b)
 {
         Node* result = NULL;
-
-        /* Base cases */
         if (a == NULL)
                 return (b);
         else if (b == NULL)
@@ -50,8 +48,7 @@ Node* SortedMerge(Node* a, Node* b)
         return (result);
 }
 
-void FrontBackSplit(Node* source,
-                                        Node** frontRef, Node** backRef)
+void FrontBackSplit(Node* source, Node** frontRef, Node** backRef)
 {
         Node* fast;
         Node* slow;
